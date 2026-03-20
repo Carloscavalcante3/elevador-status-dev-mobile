@@ -29,3 +29,6 @@ Foi realizada correção de contraste no modo escuro para garantir melhor legibi
 ## Objetivo
 
 Demonstrar a construção de uma interface mobile simples com controle de estado e atualização dinâmica sem necessidade de rebuild da aplicação.
+
+## Bug Fix
+Foi identificado um problema de consistência visual no componente de alternância de tema (Switch), que não se adaptava corretamente ao modo escuro. A correção foi realizada ajustando as propriedades de cor do componente, garantindo melhor integração com o tema da aplicação e maior legibilidade.
