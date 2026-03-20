@@ -29,7 +29,13 @@ export default function App() {
           Atualização
         </Text>
 
-        <Switch value={dark} onValueChange={setDark} />
+        <Switch
+          value={dark}
+          onValueChange={setDark}
+          trackColor={{ false: '#D1D5DB', true: '#4B5563' }}
+          thumbColor="#FFFFFF"
+        />
+        
       </View>
 
       <Text style={[styles.subtitle, { color: theme.sub }]}>
